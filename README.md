@@ -1,8 +1,8 @@
-# {Application name here}
+# Eau Clairs Salon Manager
 
-#### By _**{List of contributors}**_
+#### By _**Patrick Dolan**_
 
-#### _{Brief description of application}_
+#### _A simple management software that tracks stylists and their individual clients._
 
 ## Technologies Used
 
@@ -12,7 +12,12 @@
 
 ## Description
 
-{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}
+A management software for Eau Clair's Salon to track stylists and their clients. You can do the following operations with the software:
+
+* View a list of all stylists.
+* Select a stylist to see their details and a list of their clients.
+* Add new stylists to the system.
+* Add new clients to a specified stylist. (All clients must be assigned to a stylist)
 
 ## Setup/Installation Requirements
 
@@ -47,16 +52,6 @@ Example of complete appsettings.json:
 <code>dotnet restore</code>  
 * Run tests by going to the test project in the terminal (ProjectName.Solution/ProjectName.Tests) and running the following command:  
 <code>dotnet test</code>  
-<br>--TEMPLATE INSTRUCTIONS DELETE FOLLOWING AFTER SETUP--  
-[Resource on how to build/use this template](https://www.learnhowtoprogram.com/c-and-net-part-time/test-driven-development-with-c/mstest-configuration-quick-reference)
-* In Startup.cs change ProjectName for database class name in configurationServices class.  
-Example: <code>.AddDbContext<ProjectNameContext\></code> changed to <code>.AddDbContext<ToDoListContext\></code>
-* In ProjectNameContext.cs model the DbSet type and name should be renamed to what the table in the database represents.
-* <strong>Make sure to rename ProjectName & ClassName in ProjectName.Tests to match those in the ProjectName directory tree.</strong>  
-* Rename the ProjectName in the following files for use: ProjectName in all folder its included in, Homecontroller.cs, ClassName.cs, PageName.cshtml, Program.cs,ProjectNameContext.cs, and Startup.cs.
-
-<br>
-* When renaming project files for new project make sure to rename all fields with "ProjectName" as the directory/file name. This includes line 13 of "ProjectName.Tests.csproj" to the names of your directories. 
 
 ## Known Bugs
 
@@ -65,10 +60,9 @@ Example: <code>.AddDbContext<ProjectNameContext\></code> changed to <code>.AddDb
 ## Contact Me
 
 Let me know if you run into any issues or have questions, ideas or concerns:  
-{PUT EMAIL HERE}
-
+dolanp1992@gmail.com
 ## License
 
 _MIT_
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) _2022_ _Patrick Dolan_
