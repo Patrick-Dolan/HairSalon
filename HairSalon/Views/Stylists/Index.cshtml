@@ -11,6 +11,11 @@
   <p>No Stylists have been added yet.</p>
 }
 
+@if (Model.Count >= 1)
+{
+  <p>Click on a stylists name to see more information on the stylist and their client list.</p>
+}
+
 @foreach (Stylist stylist in Model)
 {
   <li><strong>@Html.ActionLink($"{stylist.Name}", "Details", new { id = stylist.StylistId })</strong></li>
