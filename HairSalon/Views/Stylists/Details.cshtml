@@ -12,12 +12,12 @@
 <h4>Clients</h4>
 @if(ViewBag.ClientList.Count == 0)
 {
-  <p>This stylist has no clients yet.</p>
+  <p>@Model.Name has no clients yet.</p>
 }
 
 @if(ViewBag.ClientList.Count == 1)
 {
-  <p>This stylist has 1 client.</p>
+  <p>@Model.Name has 1 client.</p>
 }
 
 @if(ViewBag.ClientList.Count > 1)
